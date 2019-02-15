@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">FRC 2018 Scouting</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="TeamMembers">
+        <item></item>
+        <item>Alexei</item>
+        <item>Alyssa</item>
+        <item>Austin</item>
+        <item>Ben</item>
+        <item>Caiden</item>
+        <item>Carl</item>
+        <item>Carter</item>
+        <item>Celeste</item>
+        <item>Colton</item>
+        <item>Daniel</item>
+        <item>David</item>
+        <item>Elijah</item>
+        <item>Elyse</item>
+        <item>Ethan D.</item>
+        <item>Ethan P.</item>
+        <item>Evan</item>
+        <item>Grant</item>
+        <item>Henry</item>
+        <item>Isabell</item>
+        <item>Jacob D.</item>
+        <item>Jacob K.</item>
+        <item>Jaden</item>
+        <item>Jake</item>
+        <item>Jason</item>
+        <item>Josie</item>
+        <item>Katina</item>
+        <item>Logan</item>
+        <item>Maddie</item>
+        <item>Makaila</item>
+        <item>Mason</item>
+        <item>Matt J.</item>
+        <item>Matt T.</item>
+        <item>McKinley</item>
+        <item>Nick</item>
+        <item>Sam</item>
+        <item>Simon</item>
+        <item>TJ</item>
+        <item>Valerie</item>
+        <item>Weston</item>
+
+    </string-array>
+    <string-array name="TeamNumbers">
+        <item></item>
+        <item>74</item>
+        <item>85</item>
+        <item>216</item>
+        <item>244</item>
+        <item>288</item>
+        <item>1254</item>
+        <item>1940</item>
+        <item>2337</item>
+        <item>2767</item>
+        <item>2959</item>
+        <item>3452</item>
+        <item>3603</item>
+        <item>3620</item>
+        <item>3688</item>
+        <item>4003</item>
+        <item>4237</item>
+        <item>4325</item>
+        <item>4337</item>
+        <item>4409</item>
+        <item>5056</item>
+        <item>5110</item>
+        <item>5152</item>
+        <item>5182</item>
+        <item>5194</item>
+        <item>5204</item>
+        <item>5248</item>
+        <item>5462</item>
+        <item>5473</item>
+        <item>5535</item>
+        <item>5610</item>
+        <item>5878</item>
+        <item>5927</item>
+        <item>5980</item>
+        <item>6568</item>
+        <item>6588</item>
+        <item>6627</item>
+        <item>7210</item>
+        <item>7234</item>
+        <item>7809</item>
+        <item>7814</item>
+
+    </string-array>
+
+    <string-array name="StartingLocation">
+        <item></item>
+        <item>Level I</item>
+        <item>Level II</item>
+        <item>Level III</item>
+
+    </string-array>
+
+</resources>
