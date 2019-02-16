@@ -47,7 +47,7 @@
         <item>Weston</item>
 
     </string-array>
-    <string-array name="TeamNumbers">
+    <string-array name="TeamNumber">
         <item></item>
         <item>74</item>
         <item>85</item>
