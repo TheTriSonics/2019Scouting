@@ -94,9 +94,50 @@
 
     <string-array name="StartingLocation">
         <item></item>
+        <item>Left</item>
+        <item>Center</item>
+        <item>Right</item>
+
+    </string-array>
+
+    <string-arry name="HABLevel">
+        <item></item>
         <item>Level I</item>
         <item>Level II</item>
-        <item>Level III</item>
+
+    </string-arry>
+
+    <string-array name="SandstormControlType">
+        <item></item>
+        <item>Human Controlled</item>
+        <item>Autonomous</item>
+        <item>Unsure</item>
+
+    </string-array>
+
+    <string-array name="RocketLevel">
+        <item></item>
+        <item>None</item>
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+
+    </string-array>
+
+    <string-array name="HABLevelEndGame">
+        <item></item>
+        <item>None</item>
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+
+    </string-array>
+
+    <string-array name="LiftOthers">
+        <item></item>
+        <item>None</item>
+        <item>One</item>
+        <item>Two</item>
 
     </string-array>
 
