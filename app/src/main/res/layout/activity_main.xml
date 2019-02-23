@@ -6,7 +6,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.morrie.frc2018scout.MainActivity">
+    tools:context="com.example.morrie.2019scout.MainActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -26,6 +26,6 @@
         layout="@layout/content_main"
         android:layout_height="1500dp"
         tools:layout_editor_absoluteY="53dp"
-        android:layout_width="" />
+        android:layout_width="wrap_content" />
 
 </android.support.design.widget.CoordinatorLayout>

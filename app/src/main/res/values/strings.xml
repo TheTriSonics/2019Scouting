@@ -100,12 +100,12 @@
 
     </string-array>
 
-    <string-arry name="HABLevel">
+    <string-array name="StartingHabitatLevel">
         <item></item>
         <item>Level I</item>
         <item>Level II</item>
 
-    </string-arry>
+    </string-array>
 
     <string-array name="SandstormControlType">
         <item></item>
