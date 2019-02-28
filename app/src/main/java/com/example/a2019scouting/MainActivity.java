@@ -12,7 +12,7 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Spinner;
-import com.example.morrie.frc2018scout.R;
+import com.example.a2019scouting.R;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -256,7 +256,7 @@ public class MainActivity extends AppCompatActivity {
         Button teleHatchRocketP = findViewById(R.id.teleopHatchRocketPlus);
         teleHatchRocketP.setOnClickListener(v -> {
             int start = Integer.parseInt(teleopHatchRocket.getText().toString());
-            if (start < 10) {
+            if (start < 15) {
                 start++;
                 String result = String.valueOf(start);
                 teleopHatchRocket.setText(result);
@@ -276,7 +276,7 @@ public class MainActivity extends AppCompatActivity {
         Button teleHatchShipP = findViewById(R.id.teleopHatchShipPlus);
         teleHatchShipP.setOnClickListener(v -> {
             int start = Integer.parseInt(teleopHatchShip.getText().toString());
-            if (start < 10) {
+            if (start < 15) {
                 start++;
                 String result = String.valueOf(start);
                 teleopHatchShip.setText(result);
@@ -296,7 +296,7 @@ public class MainActivity extends AppCompatActivity {
         Button teleCargoRocketP = findViewById(R.id.teleopCargoRocketPlus);
         teleCargoRocketP.setOnClickListener(v -> {
             int start = Integer.parseInt(teleopCargoRocket.getText().toString());
-            if (start < 10) {
+            if (start < 15) {
                 start++;
                 String result = String.valueOf(start);
                 teleopCargoRocket.setText(result);
@@ -316,7 +316,7 @@ public class MainActivity extends AppCompatActivity {
         Button teleCargoShipP = findViewById(R.id.teleopCargoShipPlus);
         teleCargoShipP.setOnClickListener(v -> {
             int start = Integer.parseInt(teleopCargoShip.getText().toString());
-            if (start < 10) {
+            if (start < 15) {
                 start++;
                 String result = String.valueOf(start);
                 teleopCargoShip.setText(result);

@@ -1,9 +1,6 @@
 <resources>
     <string name="app_name">FRC 2019 Scouting</string>
     <string name="action_settings">Settings</string>
-    <string name="position">Position</string>
-    <string name="team_number">Team Number:</string>
-    <string name="name">Name:</string>
     <string-array name="TeamMember">
         <item></item>
         <item>Alexei</item>

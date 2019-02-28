@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
-    android:layout_height="1750dp"
+    android:layout_height="1600dp"
     android:clipToPadding="true"
     android:fillViewport="true"
     android:scrollbarStyle="insideInset"
@@ -19,7 +19,7 @@
             android:layout_width="585dp"
             android:layout_height="2500dp"
             app:layout_behavior="@string/appbar_scrolling_view_behavior"
-            tools:context="com.Users.npowe.Documents.2019Scouting.MainActivity"
+            tools:context="com.example.a2019scouting.MainActivity"
             tools:showIn="@layout/activity_main">
 
             <Spinner
@@ -377,7 +377,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:layout_marginLeft="8dp"
-                android:layout_marginTop="25dp"
+                android:layout_marginTop="40dp"
                 android:layout_marginEnd="8dp"
                 android:background="@color/colorPrimary"
                 android:text="Submit"
@@ -423,12 +423,11 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="30dp"
-                android:text="@string/team_number"
+                android:text="Team Number:"
                 android:textColor="@color/textColor"
                 android:textSize="24sp"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/nameText"
-                tools:text="Team Number:" />
+                app:layout_constraintTop_toBottomOf="@+id/nameText" />
 
             <TextView
                 android:id="@+id/nameText"
@@ -437,12 +436,11 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="80dp"
-                android:text="@string/name"
+                android:text="Name:"
                 android:textColor="@color/textColor"
                 android:textSize="24sp"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                tools:text="Name:" />
+                app:layout_constraintTop_toTopOf="parent" />
 
             <Spinner
                 android:id="@+id/teamMemberSpinner"
@@ -506,8 +504,8 @@
 
             <EditText
                 android:id="@+id/matchNumberText"
-                android:layout_width="68dp"
-                android:layout_height="38dp"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
                 android:layout_marginEnd="55dp"
                 android:layout_marginRight="55dp"
                 android:ems="10"
