@@ -32,42 +32,42 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         Spinner teamMembersSpinner = findViewById(R.id.teamMemberSpinner);
-        ArrayAdapter<CharSequence> TMadapt = ArrayAdapter.createFromResource(this, R.array.TeamMember, android.R.layout.simple_spinner_item);
+        ArrayAdapter<CharSequence> TMadapt = ArrayAdapter.createFromResource(this, R.array.TeamMember, R.layout.spinner_row);
         TMadapt.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         teamMembersSpinner.setAdapter(TMadapt);
 
         Spinner teamNumbersSpinner = findViewById(R.id.teamNumberSpinner);
-        ArrayAdapter<CharSequence> TNadapt = ArrayAdapter.createFromResource(this, R.array.TeamNumber, android.R.layout.simple_spinner_item);
+        ArrayAdapter<CharSequence> TNadapt = ArrayAdapter.createFromResource(this, R.array.TeamNumber, R.layout.spinner_row);
         TMadapt.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         teamNumbersSpinner.setAdapter(TNadapt);
 
         Spinner startingLocationSpinner = findViewById(R.id.startingPositionSpinner);
-        ArrayAdapter<CharSequence> SLadapt = ArrayAdapter.createFromResource(this, R.array.StartingLocation, android.R.layout.simple_spinner_item);
+        ArrayAdapter<CharSequence> SLadapt = ArrayAdapter.createFromResource(this, R.array.StartingLocation, R.layout.spinner_row);
         TMadapt.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         startingLocationSpinner.setAdapter(SLadapt);
 
         Spinner startingHabitatSpinner = findViewById(R.id.startingHABSpinner);
-        ArrayAdapter<CharSequence> SHadapt = ArrayAdapter.createFromResource(this, R.array.StartingHabitatLevel, android.R.layout.simple_spinner_item);
+        ArrayAdapter<CharSequence> SHadapt = ArrayAdapter.createFromResource(this, R.array.StartingHabitatLevel, R.layout.spinner_row);
         TMadapt.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         startingHabitatSpinner.setAdapter(SHadapt);
 
         Spinner controllerSpinner = findViewById(R.id.sandstormControllerSpinner);
-        ArrayAdapter<CharSequence> Cadapt = ArrayAdapter.createFromResource(this, R.array.SandstormControlType, android.R.layout.simple_spinner_item);
+        ArrayAdapter<CharSequence> Cadapt = ArrayAdapter.createFromResource(this, R.array.SandstormControlType, R.layout.spinner_row);
         TMadapt.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         controllerSpinner.setAdapter(Cadapt);
 
         Spinner rocketLevelReachedSpinner = findViewById(R.id.rocketLevelSpinner);
-        ArrayAdapter<CharSequence> RLadapt = ArrayAdapter.createFromResource(this, R.array.RocketLevel, android.R.layout.simple_spinner_item);
+        ArrayAdapter<CharSequence> RLadapt = ArrayAdapter.createFromResource(this, R.array.RocketLevel, R.layout.spinner_row);
         TMadapt.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         rocketLevelReachedSpinner.setAdapter(RLadapt);
 
         Spinner habitatLevelEndGameSpinner = findViewById(R.id.habitatLevelSpinner);
-        ArrayAdapter<CharSequence> HLadapt = ArrayAdapter.createFromResource(this, R.array.HABLevelEndGame, android.R.layout.simple_spinner_item);
+        ArrayAdapter<CharSequence> HLadapt = ArrayAdapter.createFromResource(this, R.array.HABLevelEndGame, R.layout.spinner_row);
         TMadapt.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         habitatLevelEndGameSpinner.setAdapter(HLadapt);
 
         Spinner liftOtherRobotSpinner = findViewById(R.id.liftOthersSpinner);
-        ArrayAdapter<CharSequence> LOadapt = ArrayAdapter.createFromResource(this, R.array.LiftOthers, android.R.layout.simple_spinner_item);
+        ArrayAdapter<CharSequence> LOadapt = ArrayAdapter.createFromResource(this, R.array.LiftOthers, R.layout.spinner_row);
         TMadapt.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         liftOtherRobotSpinner.setAdapter(LOadapt);
 
@@ -180,7 +180,7 @@ public class MainActivity extends AppCompatActivity {
         Button sandHatchRocketP = findViewById(R.id.sandstormHatchRocketPlus);
         sandHatchRocketP.setOnClickListener(v -> {
             int start = Integer.parseInt(sandstormHatchRocket.getText().toString());
-            if (start < 10) {
+            if (start < 12) {
                 start++;
                 String result = String.valueOf(start);
                 sandstormHatchRocket.setText(result);
@@ -200,7 +200,7 @@ public class MainActivity extends AppCompatActivity {
         Button sandHatchShipP = findViewById(R.id.sandstormHatchShipPlus);
         sandHatchShipP.setOnClickListener(v -> {
             int start = Integer.parseInt(sandstormHatchShip.getText().toString());
-            if (start < 10) {
+            if (start < 8) {
                 start++;
                 String result = String.valueOf(start);
                 sandstormHatchShip.setText(result);
@@ -220,7 +220,7 @@ public class MainActivity extends AppCompatActivity {
         Button sandCargoRocketP = findViewById(R.id.sandstormCargoRocketPlus);
         sandCargoRocketP.setOnClickListener(v -> {
             int start = Integer.parseInt(sandstormCargoRocket.getText().toString());
-            if (start < 10) {
+            if (start < 12) {
                 start++;
                 String result = String.valueOf(start);
                 sandstormCargoRocket.setText(result);
@@ -239,7 +239,7 @@ public class MainActivity extends AppCompatActivity {
         Button sandCargoShipP = findViewById(R.id.sandstormCargoShipPlus);
         sandCargoShipP.setOnClickListener(v -> {
             int start = Integer.parseInt(sandstormCargoShip.getText().toString());
-            if (start < 10) {
+            if (start < 8) {
                 start++;
                 String result = String.valueOf(start);
                 sandstormCargoShip.setText(result);
@@ -259,7 +259,7 @@ public class MainActivity extends AppCompatActivity {
         Button teleHatchRocketP = findViewById(R.id.teleopHatchRocketPlus);
         teleHatchRocketP.setOnClickListener(v -> {
             int start = Integer.parseInt(teleopHatchRocket.getText().toString());
-            if (start < 15) {
+            if (start < 12) {
                 start++;
                 String result = String.valueOf(start);
                 teleopHatchRocket.setText(result);
@@ -279,7 +279,7 @@ public class MainActivity extends AppCompatActivity {
         Button teleHatchShipP = findViewById(R.id.teleopHatchShipPlus);
         teleHatchShipP.setOnClickListener(v -> {
             int start = Integer.parseInt(teleopHatchShip.getText().toString());
-            if (start < 15) {
+            if (start < 8) {
                 start++;
                 String result = String.valueOf(start);
                 teleopHatchShip.setText(result);
@@ -299,7 +299,7 @@ public class MainActivity extends AppCompatActivity {
         Button teleCargoRocketP = findViewById(R.id.teleopCargoRocketPlus);
         teleCargoRocketP.setOnClickListener(v -> {
             int start = Integer.parseInt(teleopCargoRocket.getText().toString());
-            if (start < 15) {
+            if (start < 12) {
                 start++;
                 String result = String.valueOf(start);
                 teleopCargoRocket.setText(result);
@@ -319,7 +319,7 @@ public class MainActivity extends AppCompatActivity {
         Button teleCargoShipP = findViewById(R.id.teleopCargoShipPlus);
         teleCargoShipP.setOnClickListener(v -> {
             int start = Integer.parseInt(teleopCargoShip.getText().toString());
-            if (start < 15) {
+            if (start < 8) {
                 start++;
                 String result = String.valueOf(start);
                 teleopCargoShip.setText(result);
@@ -359,5 +359,13 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public boolean onPrepareOptionsMenu(Menu menu) {
+        MenuItem item= menu.findItem(R.id.action_settings);
+        item.setVisible(false);
+        super.onPrepareOptionsMenu(menu);
+        return true;
     }
 }
