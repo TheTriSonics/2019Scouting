@@ -117,6 +117,9 @@ public class MainActivity extends AppCompatActivity {
                     else if(controllerSpinner.getSelectedItem().toString() == "Autonomous") {
                         output.put("controller", 1);
                     }
+                    else if(controllerSpinner.getSelectedItem().toString() == "") {
+                        output.put("controller", "");
+                    }
                     output.put("hab_line", habitatLine.isChecked());
                     output.put("sandstorm_hatch_rocket", Integer.parseInt(sandstormHatchRocket.getText().toString()));
                     output.put("sandstorm_hatch_ship", Integer.parseInt(sandstormHatchShip.getText().toString()));
