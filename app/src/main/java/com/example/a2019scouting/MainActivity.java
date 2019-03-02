@@ -97,8 +97,6 @@ public class MainActivity extends AppCompatActivity {
                 Snackbar.make(findViewById(R.id.startingPositionSpinner), "Please enter Sandstorm Starting Position", Snackbar.LENGTH_SHORT).show();
             } else if (startingHabitatSpinner.getSelectedItem().toString().equals("")) {
                 Snackbar.make(findViewById(R.id.startingHABSpinner), "Please enter Sandstorm HAB Level", Snackbar.LENGTH_SHORT).show();
-            } else if (controllerSpinner.getSelectedItem().toString().equals("")) {
-                Snackbar.make(findViewById(R.id.sandstormControllerSpinner), "Please enter Sandstorm the Sandstorm Controller Type", Snackbar.LENGTH_SHORT).show();
             } else if (rocketLevelReachedSpinner.getSelectedItem().toString().equals("")) {
                 Snackbar.make(findViewById(R.id.rocketLevelSpinner), "Please enter Highest Rocket Level Reached", Snackbar.LENGTH_SHORT).show();
             } else if (habitatLevelEndGameSpinner.getSelectedItem().toString().equals("")) {
@@ -113,7 +111,12 @@ public class MainActivity extends AppCompatActivity {
                     output.put("match_number", Integer.parseInt(matchNum.getText().toString()));
                     output.put("starting_position", startingLocationSpinner.getSelectedItem().toString());
                     output.put("hab_level", Integer.parseInt(startingHabitatSpinner.getSelectedItem().toString()));
-                    output.put("controller", controllerSpinner.getSelectedItem().toString());
+                    if(controllerSpinner.getSelectedItem().toString() == "Human Controlled") {
+                        output.put("controller", 0);
+                    }
+                    else if(controllerSpinner.getSelectedItem().toString() == "Autonomous") {
+                        output.put("controller", 1);
+                    }
                     output.put("hab_line", habitatLine.isChecked());
                     output.put("sandstorm_hatch_rocket", Integer.parseInt(sandstormHatchRocket.getText().toString()));
                     output.put("sandstorm_hatch_ship", Integer.parseInt(sandstormHatchShip.getText().toString()));
