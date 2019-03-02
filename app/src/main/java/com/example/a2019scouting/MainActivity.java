@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
         Button submit = findViewById(R.id.submitButton);
 
         submit.setOnClickListener(v -> {
-            if (teamMembersSpinner.getSelectedItem().toString().equals("")) {
+            if (teamMembersSpinner.getSelectedItem().toString().equals("") || teamMembersSpinner.getSelectedItem().toString().equals("-4003-") || teamMembersSpinner.getSelectedItem().toString().equals("-5980-")) {
                 Snackbar.make(findViewById(R.id.teamMemberSpinner), "Please enter Scouter Name", Snackbar.LENGTH_SHORT).show();
             } else if (teamNumbersSpinner.getSelectedItem().toString().equals("")) {
                 Snackbar.make(findViewById(R.id.teamNumberSpinner), "Please enter Team Number", Snackbar.LENGTH_SHORT).show();
@@ -109,25 +109,25 @@ public class MainActivity extends AppCompatActivity {
                 JSONObject output = new JSONObject();
                 try {
                     output.put("name", teamMembersSpinner.getSelectedItem());
-                    output.put("team_number", teamNumbersSpinner.getSelectedItem().toString());
-                    output.put("match_number", matchNum.getText());
+                    output.put("team_number", Integer.parseInt(teamNumbersSpinner.getSelectedItem().toString()));
+                    output.put("match_number", Integer.parseInt(matchNum.getText().toString()));
                     output.put("starting_position", startingLocationSpinner.getSelectedItem().toString());
-                    output.put("hab_level", startingHabitatSpinner.getSelectedItem().toString());
+                    output.put("hab_level", Integer.parseInt(startingHabitatSpinner.getSelectedItem().toString()));
                     output.put("controller", controllerSpinner.getSelectedItem().toString());
                     output.put("hab_line", habitatLine.isChecked());
-                    output.put("sandstorm_hatch_rocket", sandstormHatchRocket.getText());
-                    output.put("sandstorm_hatch_ship", sandstormHatchShip.getText());
-                    output.put("sandstorm_cargo_rocket", sandstormCargoRocket.getText());
-                    output.put("sandstorm_cargo_ship", sandstormCargoShip.getText());
-                    output.put("teleop_hatch_rocket", teleopHatchRocket.getText());
-                    output.put("teleop_hatch_ship", teleopHatchShip.getText());
-                    output.put("teleop_cargo_rocket", teleopCargoRocket.getText());
-                    output.put("teleop_cargo_ship", teleopCargoShip.getText());
-                    output.put("rocket_level", rocketLevelReachedSpinner.getSelectedItem().toString());
+                    output.put("sandstorm_hatch_rocket", Integer.parseInt(sandstormHatchRocket.getText().toString()));
+                    output.put("sandstorm_hatch_ship", Integer.parseInt(sandstormHatchShip.getText().toString()));
+                    output.put("sandstorm_cargo_rocket", Integer.parseInt(sandstormCargoRocket.getText().toString()));
+                    output.put("sandstorm_cargo_ship", Integer.parseInt(sandstormCargoShip.getText().toString()));
+                    output.put("teleop_hatch_rocket", Integer.parseInt(teleopHatchRocket.getText().toString()));
+                    output.put("teleop_hatch_ship", Integer.parseInt(teleopHatchShip.getText().toString()));
+                    output.put("teleop_cargo_rocket", Integer.parseInt(teleopCargoRocket.getText().toString()));
+                    output.put("teleop_cargo_ship", Integer.parseInt(teleopCargoShip.getText().toString()));
+                    output.put("rocket_level", Integer.parseInt(rocketLevelReachedSpinner.getSelectedItem().toString()));
                     output.put("hatch_pick_up", hatchPickUp.isChecked());
                     output.put("defense", defense.isChecked());
-                    output.put("hab_level_end", habitatLevelEndGameSpinner.getSelectedItem().toString());
-                    output.put("lift_others", liftOtherRobotSpinner.getSelectedItem().toString());
+                    output.put("hab_level_end", Integer.parseInt(habitatLevelEndGameSpinner.getSelectedItem().toString()));
+                    output.put("lift_others", Integer.parseInt(liftOtherRobotSpinner.getSelectedItem().toString()));
                     output.put("comments", comments.getText());
                     Log.d("output", output.toString());
                 } catch (JSONException e) {

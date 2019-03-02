@@ -3,6 +3,7 @@
     <string name="action_settings">Settings</string>
     <string-array name="TeamMember">
         <item></item>
+        <item>-4003-</item>
         <item>Alexei</item>
         <item>Alyssa</item>
         <item>Austin</item>
@@ -43,7 +44,22 @@
         <item>Tyler</item>
         <item>Valerie</item>
         <item>Weston</item>
-
+        <item>-5980-</item>
+        <item>Ben</item>
+        <item>Clark</item>
+        <item>Danielle</item>
+        <item>Elzie</item>
+        <item>Felipe</item>
+        <item>Joey</item>
+        <item>Josh</item>
+        <item>Julius</item>
+        <item>Nathan</item>
+        <item>Noah</item>
+        <item>Otis</item>
+        <item>Ryan</item>
+        <item>Shea</item>
+        <item>Ethan D.</item>
+        <item>Ethan P.</item>
     </string-array>
     <string-array name="TeamNumber">
         <item></item>
@@ -100,8 +116,8 @@
 
     <string-array name="StartingHabitatLevel">
         <item></item>
-        <item>Level I</item>
-        <item>Level II</item>
+        <item>1</item>
+        <item>2</item>
 
     </string-array>
 
@@ -115,27 +131,27 @@
 
     <string-array name="RocketLevel">
         <item></item>
-        <item>None</item>
-        <item>One</item>
-        <item>Two</item>
-        <item>Three</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
 
     </string-array>
 
     <string-array name="HABLevelEndGame">
         <item></item>
-        <item>None</item>
-        <item>One</item>
-        <item>Two</item>
-        <item>Three</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
 
     </string-array>
 
     <string-array name="LiftOthers">
         <item></item>
-        <item>None</item>
-        <item>One</item>
-        <item>Two</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
 
     </string-array>
 
