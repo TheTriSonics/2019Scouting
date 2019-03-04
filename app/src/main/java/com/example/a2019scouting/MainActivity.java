@@ -51,11 +51,6 @@ public class MainActivity extends AppCompatActivity {
         TMadapt.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         startingHabitatSpinner.setAdapter(SHadapt);
 
-        Spinner controllerSpinner = findViewById(R.id.sandstormControllerSpinner);
-        ArrayAdapter<CharSequence> Cadapt = ArrayAdapter.createFromResource(this, R.array.SandstormControlType, R.layout.spinner_row);
-        TMadapt.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        controllerSpinner.setAdapter(Cadapt);
-
         Spinner rocketLevelReachedSpinner = findViewById(R.id.rocketLevelSpinner);
         ArrayAdapter<CharSequence> RLadapt = ArrayAdapter.createFromResource(this, R.array.RocketLevel, R.layout.spinner_row);
         TMadapt.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -111,15 +106,6 @@ public class MainActivity extends AppCompatActivity {
                     output.put("match_number", Integer.parseInt(matchNum.getText().toString()));
                     output.put("starting_position", startingLocationSpinner.getSelectedItem().toString());
                     output.put("hab_level", Integer.parseInt(startingHabitatSpinner.getSelectedItem().toString()));
-                    if(controllerSpinner.getSelectedItem().toString() == "Human Controlled") {
-                        output.put("controller", 0);
-                    }
-                    else if(controllerSpinner.getSelectedItem().toString() == "Autonomous") {
-                        output.put("controller", 1);
-                    }
-                    else if(controllerSpinner.getSelectedItem().toString() == "") {
-                        output.put("controller", "");
-                    }
                     output.put("hab_line", habitatLine.isChecked());
                     output.put("sandstorm_hatch_rocket", Integer.parseInt(sandstormHatchRocket.getText().toString()));
                     output.put("sandstorm_hatch_ship", Integer.parseInt(sandstormHatchShip.getText().toString()));
@@ -162,7 +148,6 @@ public class MainActivity extends AppCompatActivity {
                 matchNum.setText("");
                 startingLocationSpinner.setSelection(0);
                 startingHabitatSpinner.setSelection(0);
-                controllerSpinner.setSelection(0);
                 habitatLine.setChecked(false);
                 sandstormHatchRocket.setText("0");
                 sandstormHatchShip.setText("0");

@@ -121,13 +121,6 @@
 
     </string-array>
 
-    <string-array name="SandstormControlType">
-        <item></item>
-        <item>Human Controlled</item>
-        <item>Autonomous</item>
-
-    </string-array>
-
     <string-array name="RocketLevel">
         <item></item>
         <item>0</item>
