@@ -61,48 +61,48 @@
         <item>Ethan D.</item>
         <item>Ethan P.</item>
     </string-array>
+
     <string-array name="TeamNumber">
         <item></item>
         <item>74</item>
         <item>85</item>
-        <item>216</item>
-        <item>244</item>
-        <item>288</item>
-        <item>1254</item>
-        <item>1940</item>
-        <item>2337</item>
-        <item>2767</item>
-        <item>2959</item>
-        <item>3452</item>
-        <item>3603</item>
+        <item>107</item>
+        <item>141</item>
+        <item>1243</item>
+        <item>2054</item>
+        <item>2474</item>
+        <item>3234</item>
+        <item>3458</item>
         <item>3620</item>
-        <item>3688</item>
         <item>4003</item>
-        <item>4237</item>
-        <item>4325</item>
-        <item>4337</item>
-        <item>4409</item>
-        <item>5056</item>
-        <item>5110</item>
-        <item>5152</item>
-        <item>5182</item>
-        <item>5194</item>
-        <item>5204</item>
-        <item>5248</item>
-        <item>5462</item>
-        <item>5473</item>
+        <item>4453</item>
+        <item>5173</item>
+        <item>5227</item>
+        <item>5255</item>
+        <item>5316</item>
+        <item>5448</item>
+        <item>5470</item>
         <item>5535</item>
-        <item>5610</item>
-        <item>5878</item>
+        <item>5567</item>
+        <item>5622</item>
+        <item>5710</item>
         <item>5927</item>
+        <item>5963</item>
         <item>5980</item>
-        <item>6568</item>
-        <item>6588</item>
-        <item>6627</item>
-        <item>7210</item>
+        <item>6043</item>
+        <item>6065</item>
+        <item>6066</item>
+        <item>6094</item>
+        <item>6114</item>
+        <item>6428</item>
+        <item>6548</item>
+        <item>6589</item>
+        <item>6877</item>
+        <item>7054</item>
+        <item>7203</item>
         <item>7234</item>
-        <item>7809</item>
-        <item>7814</item>
+        <item>7248</item>
+        <item>7812</item>
 
     </string-array>
 
@@ -122,7 +122,6 @@
     </string-array>
 
     <string-array name="RocketLevel">
-        <item></item>
         <item>0</item>
         <item>1</item>
         <item>2</item>
