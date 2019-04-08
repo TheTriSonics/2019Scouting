@@ -3,7 +3,6 @@
     <string name="action_settings">Settings</string>
     <string-array name="TeamMember">
         <item></item>
-        <item>-4003-</item>
         <item>Alexei</item>
         <item>Alyssa</item>
         <item>Austin</item>
@@ -65,46 +64,7 @@
 
     <string-array name="TeamNumber">
         <item></item>
-        <item>74</item>
-        <item>85</item>
-        <item>107</item>
-        <item>141</item>
-        <item>1243</item>
-        <item>2054</item>
-        <item>2474</item>
-        <item>3234</item>
-        <item>3458</item>
-        <item>3620</item>
-        <item>4003</item>
-        <item>4453</item>
-        <item>5173</item>
-        <item>5227</item>
-        <item>5255</item>
-        <item>5316</item>
-        <item>5448</item>
-        <item>5470</item>
-        <item>5535</item>
-        <item>5567</item>
-        <item>5610</item>
-        <item>5622</item>
-        <item>5710</item>
-        <item>5927</item>
-        <item>5963</item>
-        <item>5980</item>
-        <item>6043</item>
-        <item>6065</item>
-        <item>6066</item>
-        <item>6094</item>
-        <item>6114</item>
-        <item>6428</item>
-        <item>6548</item>
-        <item>6589</item>
-        <item>6877</item>
-        <item>7054</item>
-        <item>7203</item>
-        <item>7234</item>
-        <item>7248</item>
-        <item>7812</item>
+
 
     </string-array>
 
