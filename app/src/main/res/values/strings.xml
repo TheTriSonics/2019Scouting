@@ -43,28 +43,51 @@
         <item>Tyler</item>
         <item>Valerie</item>
         <item>Weston</item>
-        <item>-5980-</item>
-        <item>Ben</item>
-        <item>Clark</item>
-        <item>Danielle</item>
-        <item>Elzie</item>
-        <item>Felipe</item>
-        <item>Jacob</item>
-        <item>Joey</item>
-        <item>Josh</item>
-        <item>Julius</item>
-        <item>Nathan</item>
-        <item>Noah</item>
-        <item>Otis</item>
-        <item>Ryan</item>
-        <item>Shea</item>
-        <item>Ethan D.</item>
-        <item>Ethan P.</item>
+
     </string-array>
 
     <string-array name="TeamNumber">
         <item></item>
-
+        <item>494</item>
+        <item>862</item>
+        <item>904</item>
+        <item>1918</item>
+        <item>2137</item>
+        <item>2619</item>
+        <item>3452</item>
+        <item>3534</item>
+        <item>3536</item>
+        <item>3542</item>
+        <item>3604</item>
+        <item>3641</item>
+        <item>3667</item>
+        <item>3707</item>
+        <item>3767</item>
+        <item>4003</item>
+        <item>4216</item>
+        <item>4362</item>
+        <item>4377</item>
+        <item>4391</item>
+        <item>4392</item>
+        <item>4409</item>
+        <item>5086</item>
+        <item>5152</item>
+        <item>5424</item>
+        <item>5436</item>
+        <item>5501</item>
+        <item>5505</item>
+        <item>5577</item>
+        <item>5675</item>
+        <item>5712</item>
+        <item>5860</item>
+        <item>6002</item>
+        <item>6591</item>
+        <item>6753</item>
+        <item>7154</item>
+        <item>7160</item>
+        <item>7501</item>
+        <item>7553</item>
+        <item>7823</item>
 
     </string-array>
 
